@@ -1,0 +1,19 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.keyword-tag:hover {
+  transform: translateY(-2px);
+}
+
+.upload-label:hover {
+  border-color: #667eea;
+  background: #f5f7ff;
+}
